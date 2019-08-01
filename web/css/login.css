@@ -1,0 +1,13 @@
+
+h1{
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+form{
+    padding: 5px;
+}
+.line label{
+    width: 100px;
+}
