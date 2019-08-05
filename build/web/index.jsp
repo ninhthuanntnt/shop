@@ -20,8 +20,8 @@
         <div>
             <core:if test="${username != null}">
                 <a href="#"> ${username}</a>
-                <a href="LogoutServlet">|Logout|</a>
-                <a href="profile.jsp">|Profile|</a>
+                <a href="LogoutServlet">|Đăng xuất|</a>
+                <a href="profile.jsp">|Thông tin|</a>
             </core:if>
             <core:if test="${username == null}">
                 <a href="login.jsp">|Đăng nhập|</a>
