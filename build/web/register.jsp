@@ -42,7 +42,7 @@
             </div>
             <div class="line">
                 <% if(request.getAttribute("errorMsgRes")!= null){%>
-                
+                "
                 <label><%= request.getAttribute("errorMsgRes")%></label>
                 
                 <%}%>

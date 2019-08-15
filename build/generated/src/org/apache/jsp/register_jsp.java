@@ -91,7 +91,7 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                ");
  if(request.getAttribute("errorMsgRes")!= null){
       out.write("\n");
-      out.write("                \n");
+      out.write("                \"\n");
       out.write("                <label>");
       out.print( request.getAttribute("errorMsgRes"));
       out.write("</label>\n");
