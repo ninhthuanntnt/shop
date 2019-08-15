@@ -28,13 +28,11 @@
                 <label for="password">Mật khẩu:</label>
                 <input type="password" name="password" id="password" value="${password}" required>
             </div>
+            <% if(session.getAttribute("errorMsg")!= null){%>
             <div class="line">
-                <% if(session.getAttribute("errorMsg")!= null){%>
-                
                 <label><%= session.getAttribute("errorMsg")%></label>
-                
-                <%}%>
             </div>
+            <%}%>
             <div class="line">
                 <input type="submit" value="Đăng nhập" required>
                 <p>Nếu chưa có tài khoản hãy <a href="register.jsp">Đăng ký</a></p>

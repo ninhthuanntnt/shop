@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
 h1{
     text-align: center;
@@ -6,8 +12,28 @@ h1{
     border-bottom: 1px solid black;
 }
 form{
-    padding: 5px;
+    display: inline-block;
+    padding: 20px 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+input{
+    border-radius: 10px;
+}
+.line{
+    padding: 10px 0;
 }
 .line label{
-    width: 100px;
+    display: block;
+}
+.line input{
+    width: 300px;
+    padding: 5px;
+}
+.line:last-child input{
+    transform: translateX(50%);
+    margin-bottom: 20px;
+    width: 50%;
 }

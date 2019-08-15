@@ -48,16 +48,12 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <link rel=\"stylesheet\" href=\"\"/>\n");
+      out.write("        <link rel=\"stylesheet\" href=\"css/login.css\"/>\n");
       out.write("        <script src=\"js/validateInput.js\"></script>\n");
       out.write("        <title>JSP Page</title>\n");
-      out.write("        <style>\n");
-      out.write("            \n");
-      out.write("        </style>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
       out.write("        <h1>ĐĂNG NHẬP</h1>\n");
-      out.write("        <hr>\n");
       out.write("        <form action=\"LoginServlet\" method=\"post\">\n");
       out.write("            ");
 

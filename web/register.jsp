@@ -9,6 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--use the same style with login page-->
+        <link rel="stylesheet" href="css/login.css"/>
         <script src="js/validateInput.js"></script>
         <title>JSP Page</title>
     </head>
