@@ -97,9 +97,17 @@ public final class profile_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            <input type=\"submit\" value=\"Thay đổi\">\n");
       out.write("                        </form>\n");
       out.write("                    </details>\n");
+      out.write("                    ");
+
+                        if(request.getAttribute("msgForChangePass") != null){
+                    
+      out.write("  \n");
       out.write("                    <p>");
       out.print(request.getAttribute("msgForChangePass") );
       out.write("</p>\n");
+      out.write("                    ");
+}
+      out.write("\n");
       out.write("                </td>\n");
       out.write("            </tr>\n");
       out.write("        </table>\n");
