@@ -1,10 +1,10 @@
-package org.apache.jsp;
+package org.apache.jsp.admin;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class updateProduct_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -48,14 +48,12 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <!--use the same style with login page-->\n");
-      out.write("        <link rel=\"stylesheet\" href=\"css/login.css\"/>\n");
-      out.write("        <script src=\"js/validateInput.js\"></script>\n");
-      out.write("        <title>JSP Page</title>\n");
+      out.write("        <link rel=\"stylesheet\" href=\"../css/login.css\"/>\n");
+      out.write("        <title>Update product</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
       out.write("        <h1>Thêm sản phẩm</h1>\n");
-      out.write("        <form action=\"RegisterServlet\" method=\"post\" enctype=\"multipart/form-data\">\n");
+      out.write("        <form action=\"../UploadProductServlet\" method=\"post\" enctype=\"multipart/form-data\">\n");
       out.write("            <div class=\"line\">\n");
       out.write("                <label for=\"image\">Tải lên hình sản phẩm:</label>\n");
       out.write("                <input type=\"file\" name=\"image-product\" id=\"image\" required>\n");
